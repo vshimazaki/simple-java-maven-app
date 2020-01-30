@@ -1,0 +1,4 @@
+- name: Copy folder to C:\Temp (results in C:\Temp)
+  win_copy:
+    src: /var/jenkins_home/workspace/Arquitetura/myapp.tar.gz
+    dest: C:\Temp
